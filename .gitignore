@@ -1,0 +1,25 @@
+# --- Security ---
+.env
+
+# --- Go Build Output ---
+*.exe
+main
+app
+server
+
+# --- Go Modules ---
+vendor/
+
+# --- IDE & Editor Settings ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Test Coverage ---
+*.out
+coverage.txt

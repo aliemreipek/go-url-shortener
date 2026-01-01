@@ -32,7 +32,7 @@ A high-performance, containerized URL shortening service built with **Go (Golang
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/aliemreipek/go-url-shortener.git](https://github.com/aliemreipek/go-url-shortener.git)
+    git clone https://github.com/aliemreipek/go-url-shortener.git
     cd go-url-shortener
     ```
 
@@ -70,7 +70,7 @@ A high-performance, containerized URL shortening service built with **Go (Golang
 **Request Body:**
 ```json
 {
-  "url": "[https://github.com/aliemreipek](https://github.com/aliemreipek)",
+  "url": "https://github.com/aliemreipek",
   "short": "mygithub"
 }
 ```
@@ -79,7 +79,7 @@ A high-performance, containerized URL shortening service built with **Go (Golang
 **Response:**
 ```json
 {
-  "url": "[https://github.com/aliemreipek](https://github.com/aliemreipek)",
+  "url": "https://github.com/aliemreipek",
   "short": "localhost:3000/mygithub",
   "expiry": 24,
   "rate_limit": 10

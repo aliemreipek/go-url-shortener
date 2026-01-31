@@ -114,3 +114,5 @@ A high-performance, containerized URL shortening service built with **Go (Golang
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+*Developed by [Ali Emre Ipek](https://github.com/aliemreipek)*
